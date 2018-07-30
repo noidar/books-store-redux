@@ -1,0 +1,1 @@
+export const toggleRead = (id) => ({type: 'TOGGLE_READ', id});

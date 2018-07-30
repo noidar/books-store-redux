@@ -1,0 +1,1 @@
+- simple app with redux state management
