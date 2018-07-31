@@ -1,10 +1,15 @@
 import React from 'react';
-import BooksStoreData from '../redux/containers/BooksStoreData'
+import AppBar from './AppBar';
+import AddNewBook from '../redux/containers/AddNewBook';
+import BooksStoreData from '../redux/containers/BooksStoreData';
 
 const App = () => (
 	<div>
-		<h4> provide some data </h4>
-		<BooksStoreData/>
+	<AppBar/>
+		<div className = 'app-wrapper'>
+			<AddNewBook/>
+			<BooksStoreData/>
+		</div>
 	</div>
 )
 
